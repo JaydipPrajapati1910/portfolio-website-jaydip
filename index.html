@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A simple protfolio website.">
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<link rel="icon" href="assets/img/logo1.png" type="image/x-icon">
+	<!-- =====BOX ICONS===== -->
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+
+	<title>Jaydip Prajapati</title>
+</head>
+
+<body>
+
+
+
+
+	<!--===== HEADER =====-->
+	<header class="l-header">
+		<nav class="nav bd-grid">
+			<div>
+                
+				<a href="#" class="nav__logo">Jaydip Prajapati</a>
+			</div>
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+					<li class="nav__item"><a href="#Certificates" class="nav__link">Certificates</a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    
+                    <div class="footer__social1">
+                        <a href="https://wa.me/7990235750" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="https://instagram.com/jaydip_prajapati_1910?igshid=OGQ5ZDc2ODk2ZA==" class="footer__icon"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href=mailto:jaydipprajapati1910@gmail.com class="footer__icon"><i class='bx bxs-envelope'></i></a>
+                    </div>
+				</ul>
+			</div>
+
+
+
+			<div class="nav__toggle" id="nav-toggle">
+				<i class='bx bx-menu'></i>
+                
+            </div>
+            
+        </nav>
+        <div class="progress-container">
+            <div class="progress-bar" id="proBar"></div>
+        </div>
+    </header>
+
+    <main class="l-main">
+
+
+        <section class="home bd-grid" id="home">
+            <div class="home-content">
+
+                <h1 class="home__title">Hello,I'am<span class="home__title-color"><br>JAYDIP PRAJAPATI<br></span>
+                    <a href="" class="typewrite" data-period="2000"
+                        data-type='[ "I am a Developer.", "I am a Graphic Designer.", "I am a UI/UX Designer." ]'>
+                        <span class="wrap"></span>
+                    </a>
+                    <br>
+                    <span class="text-four" style=" color: #0E2431;">From Ahmedabad,Gujarat</span>
+                </h1>
+                <a href=mailto:jaydipprajapati1910@gmail.com class="my-button"> &nbsp; &nbsp;Hire Me! &nbsp; &nbsp;</a>
+                <br><br><br>
+
+            </div>
+            <div class="home-img">
+                <img src="assets/img/jaydip1.webp" loading="lazy" alt="">
+            </div>
+
+
+
+
+            <div class="home__social">
+
+                <div class="card">
+
+                    <a class="socialContainer containerOne home__social-icon"
+                        href="https://instagram.com/web_developer_1910?utm_source=qr&igshid=OGU0MmVlOWVjOQ==">
+                        <i class='bx bxl-instagram socialSvg'></i>
+                    </a>
+
+                    <a class="socialContainer containerTwo home__social-icon"
+                        href="https://in.linkedin.com/in/prajapati-jaydip-195756238">
+                        <i class='bx bxl-linkedin socialSvg'></i>
+                    </a>
+
+                    <a class="socialContainer containerThree home__social-icon"
+                        href="https://github.com/JaydipPrajapati1910">
+                        <i class='bx bxl-github socialSvg'></i>
+                    </a>
+
+                    <a class="socialContainer containerFour home__social-icon" href="https://codepen.io/Jaydip_1910">
+                        <i class='bx bxl-codepen socialSvg'></i>
+                    </a>
+                    <a class="socialContainer containerFive home__social-icon"
+                        href="https://uiverse.io/profile/JaydipPrajapati1910">
+                        <i class="socialSvg">
+                            <svg class="uiverse socialSvg" width="23px" height="23px" viewBox="0 0 100 100"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M38.0481 4.82927C38.0481 2.16214 40.018 0 42.4481 0H51.2391C53.6692 0 55.6391 2.16214 55.6391 4.82927V40.1401C55.6391 48.8912 53.2343 55.6657 48.4248 60.4636C43.6153 65.2277 36.7304 67.6098 27.7701 67.6098C18.8099 67.6098 11.925 65.2953 7.11548 60.6663C2.37183 56.0036 3.8147e-06 49.2967 3.8147e-06 40.5456V4.82927C3.8147e-06 2.16213 1.96995 0 4.4 0H13.2405C15.6705 0 17.6405 2.16214 17.6405 4.82927V39.1265C17.6405 43.7892 18.4805 47.2018 20.1605 49.3642C21.8735 51.5267 24.4759 52.6079 27.9678 52.6079C31.4596 52.6079 34.0127 51.5436 35.6268 49.4149C37.241 47.2863 38.0481 43.8399 38.0481 39.0758V4.82927Z"
+                                    fill="url(#paint0_linear_501_142)"></path>
+                                <path
+                                    d="M86.9 61.8682C86.9 64.5353 84.9301 66.6975 82.5 66.6975H73.6595C71.2295 66.6975 69.2595 64.5353 69.2595 61.8682V4.82927C69.2595 2.16214 71.2295 0 73.6595 0H82.5C84.9301 0 86.9 2.16214 86.9 4.82927V61.8682Z"
+                                    fill="url(#paint1_linear_501_142)"></path>
+                                <path
+                                    d="M2.86102e-06 83.2195C2.86102e-06 80.5524 1.96995 78.3902 4.4 78.3902H83.6C86.0301 78.3902 88 80.5524 88 83.2195V89.1707C88 91.8379 86.0301 94 83.6 94H4.4C1.96995 94 0 91.8379 0 89.1707L2.86102e-06 83.2195Z"
+                                    fill="url(#paint2_linear_501_142)"></path>
+                                <defs>
+                                    <linearGradient id="paint0_linear_501_142" x1="0" y1="0" x2="96.1684" y2="87.6201"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#BF66FF"></stop>
+                                        <stop offset="0.510417" stop-color="#6248FF"></stop>
+                                        <stop offset="1" stop-color="#00DDEB"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_501_142" x1="0" y1="0" x2="96.1684" y2="87.6201"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#BF66FF"></stop>
+                                        <stop offset="0.510417" stop-color="#6248FF"></stop>
+                                        <stop offset="1" stop-color="#00DDEB"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_501_142" x1="0" y1="0" x2="96.1684" y2="87.6201"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#BF66FF"></stop>
+                                        <stop offset="0.510417" stop-color="#6248FF"></stop>
+                                        <stop offset="1" stop-color="#00DDEB"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </i>
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+
+                    <div class="card4 about__img">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="card-inner"><img src="assets/img/jaydip1 copy.png" loading="lazy" alt=""></div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Hi,I'am Jaydip</h2>
+                    <p class="about__text">A <b>Full Stackweb developer having Specialixation in Frontend & Backend
+                            developement.</b>I have Frontend skill Html,Css,Javascript,Boostrap.I also have Backend
+                        Skills PHP,Laravel,Django,Python.And also Expert In <b>UI/UX Designer & graphic Designer.</b>i
+                        make webdesign,logodesign,<br>socialmediapost and banner. </p>
+                    <br><br>
+
+
+                    <br>
+                    <a class="my-button" href="#"><span><i class='bx bxs-envelope'></i></span><span>Email
+                            Address</span></a>
+                    <br>
+                    <br>
+                    <div class="input-box">
+                        <br><br><input class="input" type="text" value="jaydipprajapati1910@gmail.com" id="myInput"
+                            disabled>
+                        <button class="my-button" name="button" id="button" onclick="myFunction(); changeValue();"
+                            style="cursor: pointer;">Copy</button>
+
+
+                        <script type="text/javascript">
+                            function changeValue() {
+                                // Changes the value of the button
+                                button.value = "Copied!";
+
+                                // Changes the text on the button
+                                button.innerHTML = "Copied!";
+                            }
+                        </script>
+                    </div>
+
+                    <br><br>
+                    <a href="assets/pdf/JaydipCV.pdf" loading="lazy" class="my-button">Download CV<i
+                            class='bx bxs-download skills__icon1'></i></a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">Here I Mentioned My Profesional Subject,Software Skills progress bar,so you
+                        can check my skils for particular subject and software.</p>
+                    <img src="assets/img/skills.webp" alt="" class="skills__img" loading="lazy"><br>
+
+                </div>
+                <div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-c-plus-plus skills__icon'></i>
+                            <span class="skills__name">C++</span>
+                        </div>
+                        <div class="skills__bar skills__c">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon'></i>
+                            <span class="skills__name">PYTHON</span>
+                        </div>
+                        <div class="skills__bar skills__py">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-php skills__icon'></i>
+                            <span class="skills__name">PHP</span>
+                        </div>
+                        <div class="skills__bar skills__php">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-graphql skills__icon'></i>
+                            <span class="skills__name">PHOTOSHOP</span>
+                        </div>
+                        <div class="skills__bar skills__ps">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Project Work</h2>
+
+            <div class="work__container bd-grid">
+                <span>
+                    <a href="" class="work__img">
+                        <img src="assets/img/exam1.webp"loading="lazy" alt="">
+                    </a>
+                    <h1 style="align-items: center; text-align: center; color:var(--first-color); margin-top: 30px;">
+                        <u>Exam Management System</u></h1>
+                </span>
+
+                <span>
+                    <a href="" class="work__img">
+                        <img src="assets/img/lab1.webp"loading="lazy" alt="">
+                    </a>
+                    <h1 style="align-items: center; text-align: center; color:var(--first-color); margin-top: 30px;">
+                        <u>Lab Management System</u></h1>
+                </span>
+
+                <span>
+                    <a href="" class="work__img">
+                        <img src="assets/img/burger.webp" loading="lazy" alt="">
+                    </a>
+                    <h1 style="align-items: center; text-align: center; color:var(--first-color); margin-top: 30px;">
+                        <u>Web Page Design</u></h1>
+                </span>
+                <span>
+                    <a href="" class="work__img">
+                        <img src="assets/img/uiux.webp" loading="lazy" alt="">
+                    </a>
+                    <h1 style="align-items: center; text-align: center; color:var(--first-color); margin-top: 30px;">
+                        <u>App Design</u></h1>
+                </span>
+
+
+                <span>
+                    <a href="" class="work__img">
+                        <img src="assets/img/logos.webp" loading="lazy" alt="">
+                    </a>
+                    <h1 style="align-items: center; text-align: center; color:var(--first-color); margin-top: 30px;">
+                        <u>Logo Design</u></h1>
+                </span>
+
+                <span>
+                    <a href="" class="work__img">
+                        <img src="assets/img/colgate.webp" loading="lazy" alt="">
+                    </a>
+                    <h1 style="align-items: center; text-align: center; color:var(--first-color); margin-top: 30px;">
+                        <u>Social Media Post Design</u></h1>
+                </span>
+
+            </div>
+        </section>
+
+
+
+        <section class="Certificates section" id="Certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="work__container bd-grid">
+                <span>
+                    <div class="card3 certificates__img">
+                        <div class="card-image "><img src="assets/img/html.webp" loading="lazy" alt=""></div>
+                        <div class="card-description">
+                            <h1 class="text-body" style="text-align: center;">HTML5</h1>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/XDFH6HHKKBVM?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                class="my-button3" style="margin-top: auto;">Show Certificate</a>
+
+                        </div>
+                    </div>
+                </span>
+
+
+                <span>
+                    <div class="card3 certificates__img">
+                        <div class="card-image "><img src="assets/img/javascript.webp"  loading="lazy" alt=""></div>
+                        <div class="card-description">
+                            <h1 class="text-body" style="text-align: center;">JAVASCRIPT</h1>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/H4R3TN6V28YY?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                class="my-button3" style="margin-top: auto;">Show Certificate</a>
+
+                        </div>
+                    </div>
+                </span>
+
+
+                <span>
+                    <div class="card3 certificates__img">
+                        <div class="card-image "><img src="assets/img/c.webp"  loading="lazy" alt=""></div>
+                        <div class="card-description">
+                            <h1 class="text-body" style="text-align: center;">C LANGUAGE</h1>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/B3KT7EAHPLZ6?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                class="my-button3" style="margin-top: auto;">Show Certificate</a>
+
+                        </div>
+                    </div>
+                </span>
+                <span>
+                    <div class="card3 certificates__img">
+                        <div class="card-image "><img src="assets/img/java.webp"  loading="lazy" alt=""></div>
+                        <div class="card-description">
+                            <h1 class="text-body" style="text-align: center;">JAVA</h1>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/VPG7ZFMB6SXB?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                class="my-button3" style="margin-top: auto;">Show Certificate</a>
+
+                        </div>
+                    </div>
+                </span>
+                <span>
+                    <div class="card3 certificates__img">
+                        <div class="card-image "><img src="assets/img/tableau.webp" loading="lazy"  alt=""></div>
+                        <div class="card-description">
+                            <h1 class="text-body" style="text-align: center;">TABLEAU</h1>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/HYZDLQNJCL2Q?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                class="my-button3" style="margin-top: auto;">Show Certificate</a>
+
+                        </div>
+                    </div>
+                </span>
+                <span>
+                    <div class="card3 certificates__img">
+                        <div class="card-image "><img src="assets/img/network.webp"  loading="lazy" alt=""></div>
+                        <div class="card-description">
+                            <h3 class="text-body" style="text-align: center;">NETWORKING FUNDAMENTALS</h3>
+                            <a href="https://coursera.org/share/ba28e712e928e475583106c97e547fd8" class="my-button3"
+                                style="margin-top: auto;">Show Certificate</a>
+
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </section>
+
+
+
+
+
+         <!--===== CONTACT =====-->
+         <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+           <div class="contact__container bd-grid">        
+<a href=mailto:jaydipprajapati1910@gmail.com class="btn btn-primary btn-icon-text">
+    <i class='bx bxs-envelope' style="font-size:15px;">│
+    jaydipprajapati1910@gmail.com</i>
+    </a>
+    <br>
+    <a  href="https://instagram.com/jaydip_prajapati_1910?igshid=OGQ5ZDc2ODk2ZA==" class="btn btn-primary btn-icon-text">
+        <i class='bx bxl-instagram' style="font-size:16px;">│
+            jaydip_prajapati_1910</i>
+        </a>
+        <br>
+        <a href="https://wa.me/7990235750" class="btn btn-primary btn-icon-text">
+            <i class='bx bxs-phone' style="font-size:16px;">│
+            +91 7990235750</i>
+            </a> <br><br><br>
+
+                <h1 style="text-align: center; margin-bottom: auto; font-size: 40px;">Thank You For Visiting My
+                    Portfolio Website &#129309;.</h1>
+            </div>
+
+        </section>
+
+
+
+    </div>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">jaydipprajapati1910@gmail.com</p>
+        <div class="footer__social">
+            <a href="https://wa.me/7990235750" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://instagram.com/jaydip_prajapati_1910?igshid=OGQ5ZDc2ODk2ZA==" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href=mailto:jaydipprajapati1910@gmail.com class="footer__icon"><i class='bx bxs-envelope'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Jaydip-prajapati. All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
